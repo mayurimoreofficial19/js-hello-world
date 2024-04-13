@@ -4,8 +4,59 @@ Enter your code on line 7 to print 'Hello, World!'
 to the console (the panel on the right)
 */
 
-console.log("Hello");
+console.log('Hi,I started learning this program')
+console.log(1+1)
+console.log('launchcode')
 
+console.log("Arithmatic Calculation")
+let num1 = 2;
+let num2 = 6;
+
+console.log(num1 + num2);
+
+console.log("Arithmatic Calculation")
+num1 = 7;
+num2 = 6;
+let reminder = num1 / num2;
+
+console.log(reminder)
+
+console.log(2 ** 2 ** 3 * 3)
+
+console.log(1 + 5 % 3)
+
+console.log(16 - 2 * 5 / 3 + 1)
+
+console.log("launch" + "code");
+
+console.log(1 + 1 + 1)
+
+console.log("1" + 1 + 1)
+
+const input = require('readline-sync');
+
+let info = input.question("please enter your age");
+
+console.log(typeof info);
+
+console.log("Calculate a space mission!")
+let shuttleName = 'Determination';
+let shuttleSpeedMph = 17500;
+let distanceToMarsKm = 22500000;
+let distanceToMoonKm = 38400;
+const milesPerKm = 0.621;
+
+console.log(typeof shuttleName);
+console.log(typeof shuttleSpeedMph);
+console.log(typeof distanceToMarsKm);
+console.log(typeof distanceToMoonKm);
+console.log(typeof milesPerKm);
+
+let milesToMars = distanceToMarsKm * milesPerKm;
+let hoursToMars = milesToMars / shuttleSpeedMph;
+let daysToMars = hoursToMars / 24;
+
+console.log(shuttleName + " will take " + daysToMars +  " days to reach Mars.")
 /*  
 Next, PLAY! 
 Modify your code on line 7 to try to accomplish the tasks listed below:
